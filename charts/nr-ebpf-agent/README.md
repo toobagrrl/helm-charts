@@ -118,6 +118,12 @@ Options that can be defined globally include `affinity`, `nodeSelector`, `tolera
 
 If the `nr-ebpf-client` or `nr-ebpf-agent` container logs indicate that the scripts are failing to export data, ensure that Linux headers are installed on the host. Verify that the `nr-ebpf-agent` container logs indicate that the Linux header files were found and that the Stirling data tables were initialized. These logs should be written as the agent is booting up (towards the beginning of the output).
 
+## License
+
+The New Relic EBPF Agent is licensed under the New Relic Pre-Release Software Notice.
+
+The NR EBPF Agent also uses source code from third-party libraries ([Pixie](https://github.com/pixie-io/pixie)). You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
+
 ## Maintainers
 
 * ramkrishankumarN
